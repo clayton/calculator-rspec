@@ -1,0 +1,15 @@
+Calculator RSpec Example
+=======================================
+
+Requirements:
+	* ruby 1.9.2
+	* bundler gem
+	
+Setup:
+	* bundle install
+	
+Executing Tests:
+	* bundle exec rspec spec/calculator_spec.rb
+
+Inspecting Coverage:
+	* open ./coverage/index.html

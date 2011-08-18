@@ -1,0 +1,9 @@
+Autotest.add_hook(:initialize) {|at|
+  at.add_exception %r{^./coverage}
+  nil
+}
+Autotest.add_hook :run_command do
+  @label = File.basename(Dir.pwd).upcase
+  print "\n"*2 + '-'*80 + "\n"*2
+  print "\e[2J\e[f"   # clear the terminal
+end
