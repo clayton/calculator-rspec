@@ -6,10 +6,13 @@ Requirements:
 	* bundler gem
 	
 Setup:
-	* bundle install
+	* $> bundle install
 	
 Executing Tests:
-	* bundle exec rspec spec/calculator_spec.rb
+	* $> bundle exec rspec spec/calculator_spec.rb
+
+Using Autotest:
+	* $> autotest
 
 Inspecting Coverage:
 	* open ./coverage/index.html
